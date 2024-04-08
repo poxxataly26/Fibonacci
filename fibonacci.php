@@ -13,26 +13,26 @@
     background-color: #f4f4f4;
 }
 
-.container {
-    max-width: 600px;
-    margin: 50px auto;
+.fibonacci-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fibonacci-box {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 18px;
     background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    text-align: center;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 5px;
+.fibonacci-box:nth-child(odd) {
+    background-color: #f2f2f2;
 }
 
     </style>
