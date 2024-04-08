@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sequência de Fibonacci</title>
     <link rel="stylesheet" href="styles.css">
+
     <style>
         body {
     font-family: Arial, sans-serif;
@@ -34,12 +35,9 @@
 .fibonacci-box:nth-child(odd) {
     background-color: #f2f2f2;
 }
-
     </style>
 </head>
-
 <body>
-
     <div class="container">
         <h2>Sequência de Fibonacci</h2>
         <ul>
@@ -51,8 +49,7 @@
                     }
                     return $fib;
                 }
-
-                $sequencia = fibonacci(10); // Altere este número para a quantidade de números de Fibonacci que deseja mostrar
+                $sequencia = fibonacci(10);
                 foreach ($sequencia as $numero) {
                     echo "<li>$numero</li>";
                 }
